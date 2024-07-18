@@ -59,7 +59,7 @@
     height: auto;
     background:black;
     opacity:0.9;
-    background-size: contain;
+    background-size:cover;
     
 }
 

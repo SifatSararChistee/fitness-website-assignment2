@@ -1,4 +1,9 @@
 @media screen and (max-width:576px) {
+    html, body {
+        overflow-x: hidden;
+        }
+    
+    
     .banner-left, .banner-right{ 
         width:100%;
         height: auto;
@@ -57,15 +62,5 @@
     }
 
 
-
-}
-
-
-
-@media screen and (max-width:320px) {
-    .banner-left-p2{
-        top: 14%;
-        left: 30%;
-    }
 
 }
