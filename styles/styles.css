@@ -59,6 +59,7 @@
     height: auto;
     background:black;
     opacity:0.9;
+    background-size: contain;
     
 }
 
@@ -145,6 +146,8 @@ align-items: center;
 .banner-right{
     width:50%;
     position: relative;
+    justify-content: center;
+    align-items: center;
     padding-left: 180px;
 }
 .banner-img{
@@ -154,7 +157,7 @@ align-items: center;
 
 
 .banner-left-p1{    
-    width: 193px;
+    max-width: 193px;
     height: 98px;
     box-sizing: border-box;
     border-radius: 12px;
@@ -164,8 +167,9 @@ align-items: center;
     left:15%;
     position: absolute;
     padding:10px 20px;
-    text-align: center;}
-
+    text-align: center;
+    opacity:0.9;
+}
 
 .banner-left-p2{
     max-width: 193px;
@@ -174,8 +178,8 @@ align-items: center;
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    top: 25%;
-    left: 85%;
+    top: 20%;
+    left: 80%;
     position: absolute;
     padding: 10px 20px;
     text-align: center;
