@@ -57,10 +57,7 @@
     border: 1px black solid;
     width:100%;
     height: auto;
-    background:black;
-    opacity:0.9;
-    background-size:cover;
-    
+    background-image: linear-gradient(to bottom,#141414, #222222, #141414);    
 }
 
 
