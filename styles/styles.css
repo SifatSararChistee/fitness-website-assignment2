@@ -60,6 +60,9 @@
     background-image: linear-gradient(to bottom,#141414, #222222, #141414);    
 }
 
+body{
+    background-color: rgb(0,0,0);
+}
 
 /* navbar secton */
 .navbar{
@@ -183,7 +186,7 @@ align-items: center;
     }
 
 
-.font-large{
+.font-large-banner{
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-weight: 900;
@@ -196,4 +199,53 @@ align-items: center;
     background-color:rgb(230, 83, 60);
     border-radius: 50%;
     display: inline-block;
+}
+
+
+/* habit section */
+
+
+.habit-tittle-container h1{
+    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.habit-tittle-container h1,p{
+    text-align: center;
+}
+
+.habit-tittle-container p{
+    margin-bottom: 40px;
+}
+
+
+.content-container{
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.habit-img{
+    width: 100%;
+    height: auto;
+    border-radius:50%;
+    border:2px rgb(109, 103, 103) solid;
+}
+
+.content-container h5{
+    color: rgb(29, 28, 28);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-container p{
+    text-align: center;
 }
