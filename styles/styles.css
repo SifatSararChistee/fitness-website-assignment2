@@ -122,6 +122,7 @@ align-items: center;
 .banner-left p{
     margin-bottom:40px;
     margin-top: 40px;
+    text-align: left;
 }
 
 .banner-button{
@@ -249,3 +250,60 @@ align-items: center;
 .habit-content-container p{
     text-align: center;
 }
+
+
+/* run section */
+
+.run{
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 40px 50px;
+    gap: 100px;
+
+}
+
+.run-content{
+    width: 50%;
+    height: auto;
+    text-align: left;
+}
+
+.run-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.run-content p{
+    margin-bottom: 50px;
+    text-align: left;
+    text-wrap:balance;
+}
+
+.run-img-container1{
+    width:50%;
+    height: auto;
+    max-width:333px;
+    max-height:368px;
+    border-radius: 18px;
+    background-image: url(../images/run2.jpg);
+    background-position-y:-25px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.run-img-container2{
+    display: none;
+    width:100%;
+    height:auto;
+    border-radius:18px;
+    background-image: url(../images/run.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+

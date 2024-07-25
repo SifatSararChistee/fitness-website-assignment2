@@ -1,21 +1,50 @@
 @media screen and (max-width:576px) {
     html, body {
         overflow-x: hidden;
-        }
-    
-    
-    .banner{
+    }
+    main{
+        margin: 0 20px;
+    }
+    .banner, .run{
         flex-direction: column;
-        }
+    }
+    .run-img-container2{
+        display:block;
+        width: 100%;
+        height: 250px;
+    }
+
+
+
+    .run-img-container1{
+        display: none;
+    }
+    .run{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .run-content{
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
     
+    .run-content h1{
+        font-size: 28px;
+    }
+        
+
     .habit-content-container{
         grid-template-columns: repeat(1,1fr);
-        }
+    }
 
-        .habit-tittle-container h1{
-            font-size: 30px;
-            margin-top: 20px;
-        }
+    .habit-tittle-container h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
     .banner-left, .banner-right{ 
         width:100%;
         height: auto;
@@ -61,7 +90,7 @@
         gap: 50px;
     }
     .banner-left h1{
-        font-size: 8vw
+        font-size: 8vw;
     }
     
     .nav-menu{
