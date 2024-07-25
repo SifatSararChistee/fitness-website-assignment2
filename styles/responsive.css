@@ -4,6 +4,15 @@
         }
     
     
+    .banner{
+        flex-direction: column;
+        }
+    
+        .habit-content-container{
+            grid-template-columns: repeat(1,1fr);
+        }
+
+
     .banner-left, .banner-right{ 
         width:100%;
         height: auto;
@@ -57,12 +66,5 @@
     #hamburger-icon{
         display: block;
     }
-    .banner .content-container{
-        flex-direction: column;
-    }
-
-.habit{
-    display: none;
-}
 
 }
