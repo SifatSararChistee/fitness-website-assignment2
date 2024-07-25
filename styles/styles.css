@@ -390,12 +390,19 @@ align-items: center;
 
 .bmi-content{
     width: 100%;
-    height:500px;
+    height:100%;
     background: rgb(34, 34, 34);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+}
+
+.bmi-chart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bmi-chart h3{
@@ -409,7 +416,6 @@ align-items: center;
 .bmi-chart table,th,tr, td{
     border:1px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     padding: 20px;
@@ -423,6 +429,10 @@ align-items: center;
 }
 
 
+.bmi-calculator{
+    width: 50%;
+    margin-right: 10%;
+}
 
 .bmi-calculator h3{
     color: rgb(255, 255, 255);
@@ -487,7 +497,3 @@ margin-bottom: 40px;
     font-size: 16px;
     font-weight: 400;
 }
-
-
-
-

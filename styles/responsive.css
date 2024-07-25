@@ -2,9 +2,6 @@
     html, body {
         overflow-x: hidden;
     }
-    main{
-        margin: 0 20px;
-    }
     .banner, .run{
         flex-direction: column;
     }
@@ -21,6 +18,8 @@
         justify-content: center;
         align-items: center;
         gap: 40px;
+        margin-top: 50px;
+
     }
 
     .run-content{
@@ -99,7 +98,51 @@
 
     .training-tittle h1{
         font-size: 28px;
+        margin-top:50px;
     }
 
+    .bmi-tittle h1{
+        font-size: 28px;
+        margin-top: 40px;
+        text-align: left;
+    }
+
+    .bmi-tittle p{
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .bmi-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bmi-chart{
+        width: 100%;
+    }
+
+    .bmi-chart h3{    
+        margin-top: 40px;
+        font-size: 18px;
+        margin-bottom: 30px; 
+    }
+
+
+    .bmi-calculator{
+        width: 100%;
+        margin-right:10%;
+        margin-left: 10%;
+        padding: 0 20px;
+    }
+    .bmi-calculator h3{
+        font-size: 18px;
+        text-align:left;
+    }
+    
+    .bmi-calculator input{
+        padding-right: 0px;
+}
 
 }
