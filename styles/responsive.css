@@ -152,8 +152,28 @@
 
 .team-members{
     width: 90%;
+    height: auto;
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(6,1fr);
+}
+
+.member1 ,
+.member2 ,
+.member3 ,
+.member4 ,
+.member5 ,
+.member6 {
+    height:500px;
+}
+
+
+.member1 p,
+.member2 p,
+.member3 p,
+.member4 p,
+.member5 p,
+.member6 p{
+    top: 85%;
 }
 
 }
