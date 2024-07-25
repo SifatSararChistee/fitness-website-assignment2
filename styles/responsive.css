@@ -8,11 +8,14 @@
         flex-direction: column;
         }
     
-        .habit-content-container{
-            grid-template-columns: repeat(1,1fr);
+    .habit-content-container{
+        grid-template-columns: repeat(1,1fr);
         }
 
-
+        .habit-tittle-container h1{
+            font-size: 30px;
+            margin-top: 20px;
+        }
     .banner-left, .banner-right{ 
         width:100%;
         height: auto;
@@ -28,6 +31,7 @@
     }
     .banner-left p{
         margin-top: 20px;
+        text-align: left;
     }
 
 
