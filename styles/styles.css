@@ -655,9 +655,10 @@ input::-webkit-inner-spin-button {
 .footer-content2 h3,
 .footer-content3 h3{
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .footer-content3 p,
@@ -666,6 +667,11 @@ input::-webkit-inner-spin-button {
     font-size: 23px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+
+#hr-line{
+    width: 90%;
+    margin:0 auto;
 }
 
 .copy-right{
