@@ -144,61 +144,73 @@
         padding-right: 0px;
 }
 
-.team-tittle h1{
-    font-size: 28px;
-    margin-top: 50px;
+    .team-tittle h1{
+        font-size: 28px;
+        margin-top: 50px;
 }
 
 
 .team-members{
-    width: 90%;
-    height: auto;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(6,1fr);
+        width: 90%;
+        height: auto;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
 }
 
-.member1 ,
-.member2 ,
-.member3 ,
-.member4 ,
-.member5 ,
-.member6 {
-    height:400px;
+    .member1 ,
+    .member2 ,
+    .member3 ,
+    .member4 ,
+    .member5 ,
+    .member6 {
+        height:400px;
 }
 
 
-.member1 p,
-.member2 p,
-.member3 p,
-.member4 p,
-.member5 p,
-.member6 p{
-    top: 85%;
+    .member1 p,
+    .member2 p,
+    .member3 p,
+    .member4 p,
+    .member5 p,
+    .member6 p{
+        top: 85%;
 }
 
-.footer-container{
-    flex-direction: column;
-    gap: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    align-items: flex-start;
+    .footer-container{
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        align-items: flex-start;
 }
 
-.footer-content1 h1{
-    font-size: 48px;
+    .footer-content1 h1{
+        font-size: 48px;
 }
 
-.footer-content2 h3,
-.footer-content3 h3{
-    font-size: 28px;
-    text-align: left;
+    .footer-content2 h3,
+    .footer-content3 h3{
+        font-size: 28px;
+        text-align: left;
 }
 
-.footer-content3 p,
-.footer-content2 p{
-    font-size: 18px;
-    text-align: left;
+    .footer-content3 p,
+    .footer-content2 p{
+        font-size: 18px;
+        text-align: left;
 }
 
+    .h1-txt1{
+        line-height: 80%;
+}
+
+    .miama-font{
+        font-size: 58px;
+}
+
+.banner-left p{
+    text-wrap: balance;
+    margin-top: 20px;
+}
 }

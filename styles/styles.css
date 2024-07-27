@@ -81,9 +81,12 @@ body{
 }
 
 .nav-menu{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding: 5px 25px 5px 5px;
 }
 
 
@@ -116,12 +119,11 @@ align-items: center;
     color: rgb(255, 255, 255);
     font-size: 4.5rem;
     font-weight: 800;
-    position: relative;
 }
 
 .banner-left p{
     margin-bottom:40px;
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: left;
 }
 
@@ -132,17 +134,13 @@ align-items: center;
 }
 
 
-/* banner tittle position */
-
 .h1-txt1{
-    position:absolute;
-    bottom: 75%;
+    line-height: 100%;
 }
 
-.h1-txt3{
-    position:absolute;
-    top: 60%;
-}
+
+
+/* banner tittle position */
 
 .banner-right{
     width:50%;
@@ -170,6 +168,7 @@ align-items: center;
     padding:10px 20px;
     text-align: center;
     opacity:0.9;
+    padding-bottom: 0px;
 }
 
 .banner-left-p2{
@@ -185,6 +184,15 @@ align-items: center;
     padding: 10px 20px;
     text-align: center;
     }
+#sp-font{
+    line-height: 250%;
+}
+
+.font-special-banner{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 900;
+}
 
 
 .font-large-banner{
