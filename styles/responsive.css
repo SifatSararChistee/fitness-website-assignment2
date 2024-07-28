@@ -213,4 +213,10 @@
     text-wrap: balance;
     margin-top: 20px;
 }
+
+.plans-container{
+    flex-direction: column;
+    gap: 20px;
+}
+
 }
